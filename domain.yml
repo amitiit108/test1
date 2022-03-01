@@ -56,6 +56,8 @@ intents:
 - user_share_problem
 
 responses:
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
   utter_greet:
   - text: Hey! How are you?
   utter_bot_challenge:
