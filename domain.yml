@@ -56,6 +56,8 @@ intents:
 - user_share_problem
 
 responses:
+  utter_default:
+  - text: Sorry I didn't get that. Can you rephrase?
   utter_please_rephrase:
   - text: I'm sorry, I didn't quite understand that. Could you rephrase?
   utter_greet:
