@@ -1,4 +1,5 @@
 version: "2.0"
+
 nlu:
 - intent: greet
   examples: |
@@ -14,54 +15,111 @@ nlu:
     - hey dude
     - goodmorning
     - goodevening
-    - good afternoon
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - good afternoon
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-- intent: mood_affirm
+
+- intent: affirm
   examples: |
     - yes
     - indeed
     - of course
     - that sounds good
+    - correct    
+    - yeah
+    - hmmm
+    - ummm...
+    - okay
+    - sure
+    - Yeah 
+    - yehhh 
+    - yeah 
+    - yes 
+    - yup 
+    - yep 
+    - Yeah 
+    - Yes 
+    - Yeah
+    - All right
+    - Alright
+    - Aye
+    - Exactly
+    - Gladly
+    - Yep
+    - Okay
+    - Okeydokey
+    - Agreed
+    - Right on
+    - Assuredly
+    - Yes
+    - Roger that
+    - Yup
+    - Kinda    
+    - Exactly 
+    - Right
+    - True
+    - absolutely
     - correct
-- intent: mood_deny
+    - perfect
+    - I guess so
+    - I hope so
+    - Believe so
+    - I think so
+    - yes
+    - yup
+    - that's correct
+    - that's true
+    - it's true
+    - that's right
+
+- intent: deny
   examples: |
     - no
+    - n
     - never
     - I don't think so
     - don't like that
     - no way
-- intent: mood_great
-  examples: |
-    - perfect
-    - very good
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - not really
+    - no 
+    - Not at all
+    - not really
+    - certainly not
+    - Entirely not
+    - No way
+    - No chance
+    - By no means
+    - Not for a single time
+    - Never
+    - Not even for once
+    - Under no circumstances
+    - On no account
+    - definitely not
+    - Absolutely not
+    - Nope
+
 - intent: mood_unhappy
   examples: |
     - my day was horrible
+    - feeling low
+    - bad
+    - not soo good
+    - not tooo good
+    - Not good, I'm in trouble
+    - Not good, I'm in worry
+    - Not good, I'm in problem 
+    - Not good, I'm in issue
+    - Not good, I'm in critical situation
+    - Not good, I'm in Complications
+    - Not good, I'm in complicated situation
+    - Not good, I'm in weird situation
+    - Not good, I'm in awkward situation
+    - Not good, I'm in big problem
+    - Not good, I'm in inconvenience
+    - Not good, I'm in anxiety
+    - Not good, I'm in disturbance
+    - Not good, I'm in conflict
+    - Not good, I'm in difficulty
+    - Not good, I'm in concern
+    - Feeling low
+    - Feeling low
     - I am sad
     - I don't feel very well
     - I am disappointed
@@ -70,8 +128,1187 @@ nlu:
     - sad
     - very sad
     - unhappy
-    - not so good
+    - not good
     - not very good
     - extremly sad
     - so saad
     - so sad
+    - OK
+    - not bad
+    - not too bad
+    - not too good
+    - very sad
+    - dizzy
+    - unhappy
+    - low
+    - extremely sad
+    - so sad
+    - Not good
+    - Not that good
+    - Not very good
+    - Not much good
+    - Not that much good
+    - Not so good
+    - Not so Great
+    - Not so amazing
+    - Not so brilliant
+    - Not so superb
+    - Not so Nice
+    - Not so Beautiful
+    - Not so helpful
+    - Not so useful
+    - Not so satisfactory
+    - Not so upright
+    - Not so good qualitywise
+    - Not so beneficial
+    - Not so worthy
+    - Not so authentic
+    - Not so convincing
+    - Not so much good
+    - Not extremely good
+    - Not really too good
+    - Not like too good
+    - It's Not too good
+    - That is Not too good
+    - So it's Not too good
+    - Actually Not too good
+    - Honestly Not too good
+    - awful
+    - not so good
+    - pretty bad
+    - not good enough
+    - that was lame
+    - that was terrible
+    - it is bad
+    - that's bad
+    - this is bad
+    - not good
+    - I'm afraid it's bad
+    - no it's bad
+    - that was awful
+    - bad
+    - so bad
+    - this is too bad
+    - terrible
+    - horrible
+    - horrific
+    - abysmal
+    - it's bad
+    - no good
+    - that was bad
+    - that was horrible
+    - that's lame
+    - that's not good
+    - that's terrible
+    - that's too bad
+    - this is not good
+    - too bad
+    - very bad
+    - bad girl
+    - it's not good
+    - not so good
+    - it's very bad
+    - it's too bad
+    - that's not good enough
+    - well too bad
+    - bad very bad
+    - it's so bad
+    - really bad
+    - it's really bad
+    - bad idea
+    - that is bad
+    - that was not good
+    - it's not so good
+    - not a good one
+    - oh that's not good
+    - not too good
+    - so lame
+    - that's really bad
+    - it is too bad
+    - bad really bad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: user_stupid
+  examples: |
+    - Can I ? maybe you'll think I'm stupid.
+    - can i maybe you will think i am stupid
+    - Can I ? Perhaps you'll think I'm  stupid.
+    - Can I ? Possibly you'll think I'm  stupid.
+    - Can I ? Conceivably you'll think I'm  stupid.
+    - Can I ? Probably you'll think I'm  stupid.
+    - Can I ? Most probably you'll think I'm  stupid.
+    - Can I ? I guess you'll think I'm  stupid.
+    - Can I ? I think you'll think I'm  stupid.
+    - Can I ? It can be that you'll think I'm  stupid.
+    - Can I ? It is possible that you'll think I'm  stupid.
+    - Can I ? For all one knows you'll think I'm  stupid.
+    - Can I ? Mayhap you'll think I'm  stupid.
+    - Can I ? Perchance you'll think I'm  stupid.
+    - Can I ? Haply you'll think I'm  stupid.
+    - Can I ? percase you'll think I'm  stupid.
+    - Can I ? I believe you'll think I'm  stupid.
+
+- intent: user_listening
+  examples: |
+    - Umm, who else is listening to me ?
+    - hmm, who else is listening to me
+    - And who else is listening to me ?
+    - Sorry who else is listening to me ?
+    - well who else is listening to me ?
+    - Okay who else is listening to me ?
+    - Great who else is listening to me ?
+    - Alright who else is listening to me ?
+    - fine who else is listening to me ?
+    - Yeah who else is listening to me ?
+    - Yes who else is listening to me ?
+    - But who else is listening to me ?
+    - Still who else is listening to me ?
+    - What are you talking about? who else is listening to me ?
+    - What are you saying? who else is listening to me ?
+    - it's not like that...who else is listening to me ?
+    - It's won't be like that.. who else is listening to me ?
+
+- intent: user_parents
+  examples: |
+    - ok,even mom and dad won't know
+    - mom and dad also don't know
+    - okay, even my parents won't know
+    - Yeah ,even mom and dad won't know
+    - Yes ,even mom and dad won't know
+    - That's right ,even mom and dad won't know
+    - True ,even mom and dad won't know
+    - That's true ,even mom and dad won't know
+    - It's true ,even mom and dad won't know
+    - Right ,even mom and dad won't know
+    - It's right ,even mom and dad won't know
+    - hmm ,even mom and dad won't know
+    - I know ,even mom and dad won't know
+    - It will be like that ,even mom and dad won't know
+    - It can be that way ,even mom and dad won't know
+    - It could be that way ,even mom and dad won't know
+    - Possible ,even mom and dad won't know
+    - Alright ,even mom and dad won't know
+    
+- intent: user_guess
+  examples: |
+    - ok, I guess... 
+    - okay, I guess... 
+    - ok, I guess
+    - ok,I Think
+    - ok,I hope
+    - ok,I Believe
+    - ok,I do guess
+    - ok,I do think
+    - ok,I do believe
+    - ok,I do hope
+    - ok,I assume
+    - ok,I presume
+    - ok,I reckon
+    - ok,I agree
+    - ok,I appreciate
+    - ok,I imagine 
+    - ok,I do assume
+    - ok,I do presume
+    
+- intent: user_sad_days
+  examples: |
+    - I really don't know, but I feel lonely sad some days.
+    - I really don't know, but I feel lonely
+    - I really don't know,but I feel isolated sad some days.
+    - I really don't know,but I feel alone sad some days.
+    - I really don't know,but I feel all alone sad some days.
+    - I really don't know,but I feel left out sad some days.
+    - I really don't know,but I feel companionless sad some days.
+    - I really don't know,but I feel friendless sad some days.
+    - I really don't know,but I feel abundant sad some days.
+    - I really don't know,but I feel rejected sad some days.
+    - I really don't know,but I feel lonesome sad some days.
+    - I really don't know,but I feel despondent sad some days.
+    - I really don't know,but I feel I am unhappy sad some days.
+    - I really don't know,but I feel unloved sad some days.
+    - I really don't know,but I feel forlorn sad some days.
+    - I really don't know,but I feel lonely upset some days.
+    - I really don't know,but I feel lonely depressed some days.
+    
+- intent: user_how
+  examples: |
+    - How? 
+    - how?
+    - how
+    - How 
+    - in what way?
+    - by what method?
+    - by what means?
+    - in what manner?
+    - according to what specifications?
+    - Whence?
+    - from what source ? 
+    - how come?
+    - whereby?
+    - to what degree?
+    - by whose help?
+    - after what precedent?
+    - by virtue of what?
+    - wherewith?
+    - show how?
+
+- intent: user_entertainment
+  examples: |  
+    - You mean, I can just keep talking and you won't get bored,or tell me to shut up ,or go to my room.
+    - u mean, i can just keep talking and u dont get bored or tell me to shut up or go to my room.
+    - You are saying,I can just keep talking and you won't get bored,or tell me to shut up ,or go to my room.
+    - You want to say,I can just keep talking and you won't get bored,or tell me to shut up ,or go to my room.
+    - You want to mean,I can just keep talking and you won't get bored,or tell me to shut up ,or go to my room.
+    - You are trying to say that,I can just keep talking and you won't get bored,or tell me to shut up ,or go to my room.
+    - You are wanting to say that,I can just keep talking and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep chatting and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep narrating and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep communicating and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep conversing and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep blabbering and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep speaking and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep chattering and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep gossiping and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep prattling and you won't get bored,or tell me to shut up ,or go to my room.
+    - You mean,I can just keep babbling and you won't get bored,or tell me to shut up ,or go to my room.
+    
+- intent: user_lost_job
+  examples: |
+    - See, my dad lost his job and we had to move to a new city....
+    - my dad lost his job and we had to move to a new city.
+    - see, my dad lost job and we are going to change new city.
+    - well my dad lost his job and we  had to move to a new city....
+    - yeah my dad lost his job and we  had to move to a new city....
+    - actually my dad lost his job and we  had to move to a new city....
+    - honestly my dad lost his job and we  had to move to a new city....
+    - To be honest my dad lost his job and we  had to move to a new city....
+    - The thing is my dad lost his job and we  had to move to a new city....
+    - The matter is my dad lost his job and we  had to move to a new city....
+    - The problem is my dad lost his job and we  had to move to a new city....
+    - The issue is my dad lost his job and we  had to move to a new city....
+    - The fact is my dad lost his job and we  had to move to a new city....
+    - as a fact my dad lost his job and we  had to move to a new city....
+    - as a matter my dad lost his job and we  had to move to a new city....
+    - The main issue is my dad lost his job and we  had to move to a new city....
+    - what happened is my dad lost his job and we  had to move to a new city....
+    - Now the situation is my dad lost his job and we  had to move to a new city....
+    
+- intent: user_no_friend
+  examples: |
+    - Yeah, I don't have any friends here I have to go to a new school, that sucks.
+    - Yes, I dont have any friends here. I have to go to a new school, that sucks.
+    - Yes I don't have any friends here I have to go to a new school,that sucks.
+    - Right I don't have any friends here I have to go to a new school,that sucks.
+    - That's right I don't have any friends here I have to go to a new school,that sucks.
+    - True I don't have any friends here I have to go to a new school,that sucks.
+    - True I don't have any friends here I have to go to a new school,that sucks.
+    - It's true I don't have any friends here I have to go to a new school,that sucks.
+    - That's correct I don't have any friends here I have to go to a new school,that sucks.
+    - Yup I don't have any friends here I have to go to a new school,that sucks.
+    - The thing is I don't have any friends here I have to go to a new school,that sucks.
+    - The fact is I don't have any friends here I have to go to a new school,that sucks.
+    - The matter is I don't have any friends here I have to go to a new school,that sucks.
+    - The problem is I don't have any friends here I have to go to a new school,that sucks.
+    - The issue is I don't have any friends here I have to go to a new school,that sucks.
+    - Rightly said I don't have any friends here I have to go to a new school,that sucks.
+    - Actually I don't have any friends here I have to go to a new school,that sucks.
+    
+- intent: user_find_friend
+  examples: |
+    - It is tough, right, but my parents don't agree, they just don't listen, and tell me to grow up and find new friends.
+    - it is tough, but my mom and dad don't agree, they just don't listen, and tell me to grow up and find new friends.
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is a mess....
+    - It is hard, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is complicated, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is not easy, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is not so easy, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is not that easy, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is not very easy, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is not easy at all, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is not easy actually, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is not easy really, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is actually very tough, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is honestly very tough, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is so tough, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is too tough, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is very tough, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - It is extremely tough, right,but my parents  don't agree,they just don't listen, and tell me to grow up and find  new friends. 
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is a trouble....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is a problem....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is hectic....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is messy....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is exhausted....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is disaster....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is devastated
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, nothing is okay....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, nothing is going good....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, nothing is going well....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, nothing is working out....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, nothing is helping
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is a messed up ....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is screwed up....
+    - And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is upside down....
+    - It is tough, right, but my parents don't agree, they just don't listen, and tell me to grow up and find new friends. And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is a mess....
+    - it is tough, but my mom and dad don't agree, they just don't listen, and tell me to grow up and find new friends. And they're always fighting,coz mom doesn't like the new house, dad doesn't like his new job, everything is a mess....
+
+- intent: user_assumption
+  examples: |
+    - I guess so.
+    - I assume so...
+    - I conjecture so.
+    - I imagine so.
+    - I suppose  so... 
+    - I think so.
+    - I Believe so.
+    - I hope so.
+    - I  do think so.
+    - I do guess so.
+    - I  appreciate so.
+    - I agree so.
+    - I assume so.
+    - I presume so.
+    - I do assume so.
+    - I do presume so.
+    - I reckon so.
+    - I do reckon so.
+    - I guess so....yeah
+    - I guess so.... right
+        
+- intent: user_fun
+  examples: |
+    - Yeah, I want to have friends and have fun.
+    - Yes, I want to have friends and have fun.
+    - yehhh, i need to have friends and have fun.
+    - yup, i need friends and have fun.
+    - Yes I want to have friends and have fun.
+    - True I want to have friends and have fun.
+    - right I want to have friends and have fun.
+    - I think I want to have friends and have fun.
+    - I guess I want to have friends and have fun.
+    - I hope I want to have friends and have fun.
+    - I believe I want to have friends and have fun.
+    - I really want to have friends and have fun.
+    - I actually want to have friends and have fun.
+    - I truly want to have friends and have fun.
+    - That's right I want to have friends and have fun.
+    - that's true I want to have friends and have fun.
+    - it's right I want to have friends and have fun.
+    - it's true I want to have friends and have fun.
+    - you are right I want to have friends and have fun.
+    
+- intent: user_appreciation
+  examples: |
+    - That sounds cool.
+    - sounds cool
+    - sounds nice
+    - sounds good
+    - that sounds great
+    - That sounds good
+    - That sounds Great
+    - That sounds amazing
+    - That sounds Nice
+    - That sounds exciting
+    - That sounds interesting
+    - That sounds Beautiful
+    - That sounds graceful
+    - That sounds awesome
+    - That sounds mind blowing
+    - That sounds excellent
+    - That sounds superb
+    - That sounds brilliant
+    - That sounds wow
+    - That sounds so cool
+    
+- intent: user_school_vehicle
+  examples: |
+    - Bus...
+    - bus...
+    - bus
+    - Bus
+    - A bus
+    - That bus
+    - This bus
+    - By bus
+    - Through a bus
+    - That one bus
+    - Which one bus?
+    - what bus?
+    - Which bus you are talking about?
+    - Which bus we are going to get?
+    - which one bus you are talking about?
+    - Which bus is available now?
+    - which bus will be available for this route?
+    - is there any bus available?
+    - is there a particular bus?
+       
+- intent: user_friend
+  examples: |
+    - Yeah, there's a boy on my stop.
+    - yes, there is a boy on my shop
+    - yup, one guy on my shop.  
+    - yehhh, there is a boy on my shop.
+    - Right there's a boy on my stop.
+    - True there's a boy on my stop.
+    - exactly there's a boy on my stop.
+    - correct there's a boy on my stop.
+    - perfect there's a boy on my stop.
+    - I guess so there's a boy on my stop.
+    - I hope so there's a boy on my stop.
+    - Believe so there's a boy on my stop.
+    - I think so there's a boy on my stop.
+    - yes there's a boy on my stop.
+    - yup there's a boy on my stop.
+    - that's correct there's a boy on my stop.
+    - that's true there's a boy on my stop.
+    - it's true there's a boy on my stop.
+    - that's right there's a boy on my stop.
+    
+- intent: user_react
+  examples: |
+    - Nah, he sorta looks at me, but I just look away.
+    - No, he sorta looks at me, but i just look away.
+    - nope, he sorta looks at me, but i just look away.
+    - Not really ,he sorta looks at me,but I just look away.
+    - not at all ,he sorta looks at me,but I just look away.
+    - nothing like that ,he sorta looks at me,but I just look away.
+    - nothing that way ,he sorta looks at me,but I just look away.
+    - not like that ,he sorta looks at me,but I just look away.
+    - it's not that ,he sorta looks at me,but I just look away.
+    - not entirely ,he sorta looks at me,but I just look away.
+    - not certainly ,he sorta looks at me,but I just look away.
+    - maybe ,he sorta looks at me,but I just look away.
+    - there is a chance ,he sorta looks at me,but I just look away.
+    - it could be ,he sorta looks at me,but I just look away.
+    - it's not happening that way ,he sorta looks at me,but I just look away.
+    - it's not that easy ,he sorta looks at me,but I just look away.
+    - it's a little complicated ,he sorta looks at me,but I just look away.
+    - it's not that simple ,he sorta looks at me,but I just look away.
+    
+- intent: user_reaction_nexttime
+  examples: |
+    - Ok, I'll say hi tomorrow.
+    - Okay, i will say hello tomorrow.
+    - Yes, I will say hi tomorrow.
+    - Yeah, I'll say hi tomorrow. 
+    - Right, I will say hi tomorrow
+    - True , I will say hi tomorrow
+    - exactly , I will say hi tomorrow
+    - correct , I will say hi tomorrow
+    - perfect , I will say hi tomorrow
+    - I guess so , I will say hi tomorrow
+    - I hope so , I will say hi tomorrow
+    - Believe so , I will say hi tomorrow
+    - I think so , I will say hi tomorrow
+    - yes , I will say hi tomorrow
+    - yup , I will say hi tomorrow
+    - that's correct , I will say hi tomorrow
+    - that's true , I will say hi tomorrow
+    - it's true , I will say hi tomorrow
+    - that's right , I will say hi tomorrow
+        
+- intent: user_hobby
+  examples: |
+    - I love Basketball, I was in my school junior team. 
+    - I like basketball, i was in my school junior team.
+    - i love basketball, in my school i am junior team.
+    - I prefer Basketball,I was in my  school junior team.
+    - I appreciate Basketball,I was in my  school junior team.
+    - I adore Basketball,I was in my  school junior team.
+    - I so love Basketball,I was in my  school junior team.
+    - I really love Basketball,I was in my  school junior team.
+    - I actually love Basketball,I was in my  school junior team.
+    - I honestly love Basketball,I was in my  school junior team.
+    - I genuinely love Basketball,I was in my  school junior team.
+    - I absolutely love Basketball,I was in my  school junior team.
+    - I Undoubtedly love Basketball,I was in my  school junior team.
+    - I Unquestionably love Basketball,I was in my  school junior team.
+    - I without any doubtlove Basketball,I was in my  school junior team.
+    - I love Basketball, in fact I was in my  school junior team.
+    - I love Basketball, as a fact I was in my  school junior team.
+    - I love Basketball, as a matter of fact I was in my  school junior team.
+    
+- intent: user_coach_consultation
+  examples: |
+    - Hey, that would be awesome !
+    - Hi, that should be awesome.
+    - Hello, that would be very nice.
+    - hello, that should be very good.
+    - hey, that should be excellent.
+    - Hey, that would be amazing
+    - Hey, that would be Great
+    - Hey, that would be excellent
+    - Hey, that would be superb
+    - Hey, that would be salient brilliant
+    - Hey, that would be extraordinary
+    - Hey, that would be beyond imagination
+    - Hey, that would be Beautiful
+    - Hey, that would be exciting
+    - Hey, that would be interesting
+    - Hey, that would be so good
+    - Hey, that would be alright
+    - Hey, that would be perfect
+    - Hey, that would be correct
+    - Hey, that would be The perfect fit
+        
+- intent: user_mood
+  examples: |
+    - I'm excited now.
+    - I am thrilled now.
+    - I'm animated now.
+    - I'm too excited now.
+    - I'm very excited now. 
+    - I'm extremely excited now.
+    - I'm so excited now.
+    - I'm very much excited now.
+    - I'm too much excited now.
+    - I'm so much excited now.
+    - I'm happy now.
+    - I'm very happy now.
+    - I'm so happy now.
+    - I'm extremely happy now.
+    - I'm very much happy now.
+    - I'm too much happy now.
+    - I'm interested now.
+    - I'm feeling excited now.
+    - I am stirred now.
+    - I am delighted now.    
+    
+- intent: user_hope
+  examples: |
+    - Hope so... But I gotta go now, can I come back and talk some more ?
+    - desire so... but i go now, can i come back and talk some more...
+    - wish so.. But I gotta go now, can I come back and talk some more.
+    - plan so ... But I gotta go now, can I come back and talk some more.
+    - dream so...But I gotta go now, can I come back and talk some more
+    - aspiration so...But I gotta go now, can I come back and talk some more
+    - Hope so...
+    - But I gotta go now, can I come back and talk some more
+    - desire so...
+    - wish so...
+    - plan so...
+    - dream so...
+    - aspiration so...
+    - but i go now, can i come back and talk some more...   
+    - believe so
+    - think so
+    - guess so 
+    - do believe do
+    - do guess so
+    - do think so
+    - really I hope so
+    - Absolutely I hope so
+    - Definitely I hope so
+    - Undoubtedly I hope so
+    - Certainly I hope so
+    - entirely I hope so
+    - exactly I hope so
+    - Honestly I hope so
+    - To be honest I hope so
+
+- intent: user_troubling_me
+  examples: |
+    - Some senior boys in school are troubling me
+    - some senior boys in school are troubling me.
+    - Some senior boys in school are giving me trouble
+    - Some senior boys in school are creating trouble for me
+    - Some senior boys in school are producing trouble for me
+    - Some senior boys in school are troubling me so much
+    - Some senior boys in school are troubling me too much
+    - Some senior boys in school are troubling me very much
+    - Some senior boys in school are troubling me extremely
+    - Some senior boys in school are troubling me like anything
+    - Some senior boys in school are troubling me nowadays
+    - Some senior boys in school are troubling me these days
+    - Some senior boys in school are troubling me for a few days
+    - Some senior boys in school are troubling me for a coil now
+    - Some senior boys in school are troubling me for some days now
+    - Some senior boys in school are troubling me for quite a few days now
+    - Some senior boys in school are troubling me continuously 
+    
+- intent: user_assumption
+  examples: |
+    - I guess so.
+    - I assume so...
+    - I conjecture so.
+    - I imagine so.
+    - I suppose  so... 
+    - I think so.
+    - I Believe so.
+    - I hope so.
+    - I do think so.
+    - I do guess so.
+    - I appreciate so.
+    - I agree so.
+    - I assume so.
+    - I presume so.
+    - I do assume so.
+    - I do presume so.
+    - I reckon so.
+    - I do reckon so.
+    - I guess so....yeah
+    - I guess so.... right  
+    - Yeah,I guess so.
+    - Right ,I guess so.
+    - True ,I guess so.
+    - exactly ,I guess so.
+    - correct ,I guess so.
+    - perfect ,I guess so.
+    - Yeah I guess so really
+    - Yeah I really hope so
+    - Yeah I do Believe so
+    - Yeah I think so... Honestly
+    - yes ,I guess so.
+    - yup ,I guess so.
+    - that's correct ,I guess so.
+    - that's true ,I guess so.
+    - it's true ,I guess so.
+    - that's right ,I guess so.  
+    
+- intent: user_new_school
+  examples: |
+    - Since I joined school last month, I'm new in this school.
+    - since i joined school last month i am new in this school
+    - Because I joined school last month, I'm new in this school. 
+    - As I joined school last month, I'm new in this school. 
+    - Cause I joined school last month, I'm new in this school. 
+    - It is because I joined school last month, I'm new in this school. 
+    - It is like that because I joined school last month, I'm new in this school. 
+    - It is that way because I joined school last month, I'm new in this school. 
+    - It is like that as I joined school last month, I'm new in this school. 
+    - It is like that cause I joined school last month, I'm new in this school. 
+    - that is because I joined school last month, I'm new in this school. 
+    - I know I joined school last month, I'm new in this school. 
+    - I think I joined school last month, I'm new in this school. 
+    - The reason is I joined school last month, I'm new in this school. 
+    - it's probably because I joined school last month, I'm new in this school. 
+    - most probably because I joined school last month, I'm new in this school. 
+    - maybe as I joined school last month, I'm new in this school. 
+    
+- intent: user_lunch_line
+  examples: |
+    - No, there was no fight,they started pushing me to the back of the lunch line  and said they were the senior guys, and I was the new kid. Now they keep taunting me whenever they get a chance.
+    - no there was no fight they staterd pushing me to be back of the lunch line and said they were the senior guys and i was the new kid now they keep taunting me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep insulting me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep humiliating me whenever they get a chance. 
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep tormenting me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep scolding me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep fighting me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep quarrelling me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep ridiculing me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep barbing me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep poking me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep torturing me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep annoying me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep bothering me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep harassing me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep agitating me whenever they get a chance.
+    - No, there was no fight,they started pushing me to the back of the  lunch line  and said they were  the senior guys, and I was the new kid. Now they keep disturbing me whenever they get a chance.
+    
+- intent: user_thanks
+  examples: |
+    - Thanks 
+    - Thank you so much! 
+    - thanks 
+    - Thnaks
+    - thank you
+    - Thnak you
+    - Thanks!
+    - Thanks a ton!
+    - Thanks for your help!
+    - Thanks for your support!
+    - Thanks for your understanding!
+    - Appreciate a lot!
+    - Grateful for your help!
+    - Appreciate a ton!
+    - Much appreciated!
+    - Many thanks!
+    - Thanks a bunch!
+    - Thanks a million!
+    - Much obliged!
+    - TY
+    - Thanks from the bottom of heart!  
+    - Thanks!
+    - Thank you
+    - Thankyou very much
+    - I am grateful
+    - I appreciate your help.. thanks
+    - thanks a lot
+    - many thanks
+    - bro.. thank you for hearing me out
+    - that's sweet.. thanks
+    - really? I found a friend in you.. thank you
+    - thanks for being there..
+    - much obliged..
+    - merci!
+    - you are a lifesavor.. thanks
+    - Thanks bro!
+    - warmest thanks
+    - your words have put a smile on my face.. Thanks
+    - Thank you!
+    - Thanks a ton!
+    - Thanks a lot!
+    - Thank you very much!
+    - TY
+    - TYSM
+    - Thanks a million!
+    - Thanks a bunch!
+    - Grateful!
+    - I'm grateful!
+    - I owe you one!
+    - Thank you so much!
+    - Thank u!
+    - Many thanks!
+    - Appreciate a ton!
+    
+- intent: user_pushed_playground
+  examples: |
+    - Mostly taunts, teasing and threats but once or twice they have pushed me on the playground.
+    - mostly taunts teasing and threats but once or twice they have push and me on the playground.
+    - Mainly taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - For the most part taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - On the whole taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - In the main taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Chiefly taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Almost entirely taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Largely taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Principally taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Substantially taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Predominantly taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Generally taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Usually taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Commonly taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Normally taunts, teasing and threats but once or twice they have push ed me on the playground.
+    - Customarily taunts, teasing and threats but once or twice they have push ed me on the playground.
+    
+- intent: user_kinda_follow
+  examples: |
+    - They're like 4 of them,but 1 of them always starts it and the others kinda follow him. 
+    - they are like 4 of them but 1 of them always starts it and the others kinds follow him.
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda come behind him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda come after
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda go behind him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda walk behind him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda go after him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda act in accordance with him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda abide by him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda adhere to him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda stick to him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda keep to him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda go along with him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda go around with him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda trail around with him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda string around with him
+    - They're like 4 of them,but 1 of  them always starts it and the others kinda shadow him
+    
+- intent: user_picks_kids
+  examples: |
+    - He's taller and really bulky,but also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's taller and in fact bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's taller and  bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's taller and in actual fact bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's taller and actually bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's taller and very bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's taller and genuinely bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's taller and very much bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's taller and so bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's taller and extremely bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's very tall and really bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's actually taller and bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's so tall and bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's really very tall and bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's too taller and bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - He's extremely taller and really bulky,but  also kinda dumb.Yeah he's mean, he picks on other small kids too.
+    - he is taller and really bulky but also kinda dumb yeah he is mean he picks on other small kida too    
+    
+- intent: user_not_sure
+  examples: |
+    - Ok,that's what I thought,but was not sure. 
+    - okay that is what i thought but was not sure
+    - Right ,that's what I thought,but was  not sure.
+    - True ,that's what I thought,but was  not sure.
+    - exactly ,that's what I thought,but was  not sure.
+    - correct ,that's what I thought,but was  not sure.
+    - perfect ,that's what I thought,but was  not sure.
+    - I guess so ,that's what I thought,but was  not sure.
+    - I hope so ,that's what I thought,but was  not sure.
+    - Believe so ,that's what I thought,but was  not sure.
+    - I think so ,that's what I thought,but was  not sure.
+    - yes ,that's what I thought,but was  not sure.
+    - yup ,that's what I thought,but was  not sure.
+    - that's correct ,that's what I thought,but was  not sure.
+    - that's true ,that's what I thought,but was  not sure.
+    - it's true ,that's what I thought,but was  not sure.
+    - that's right ,that's what I thought,but was  not sure.
+    
+- intent: user_bully_me
+  examples: |
+    - oh,ok,I sometimes think what I've done to make them bully me.
+    - oh ok i sometimes think what i have done to make them bully me
+    - Oh Right ,I sometimes think what I've done to make them bully me.
+    - Oh True ,I sometimes think what I've done to make them bully me.
+    - Oh exactly ,I sometimes think what I've done to make them bully me.
+    - Oh correct ,I sometimes think what I've done to make them bully me.
+    - Oh perfect ,I sometimes think what I've done to make them bully me.
+    - I guess so ,I sometimes think what I've done to make them bully me.
+    - I hope so ,I sometimes think what I've done to make them bully me.
+    - I Believe so ,I sometimes think what I've done to make them bully me.
+    - I think so ,I sometimes think what I've done to make them bully me.
+    - yes ,I sometimes think what I've done to make them bully me.
+    - yup ,I sometimes think what I've done to make them bully me.
+    - that's correct ,I sometimes think what I've done to make them bully me.
+    - that's true ,I sometimes think what I've done to make them bully me.
+    - it's true ,I sometimes think what I've done to make them bully me.
+    - that's right ,I sometimes think what I've done to make them bully me.
+    
+- intent: user_pushedme_playgroundhurt
+  examples: |
+    - Both,mostly they taunt,tease and make threats,but once or twice they pushed me in the playground and i got hurt.
+    - both mostly they taunt tease and make threats but once or twice they pushed me in the playground and i got hurt.
+    - Both, Mainly taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, For the most part taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, On the whole taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, In the main taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Chiefly taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Almost entirely taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Largely taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Principally taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Substantially taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Predominantly taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Generally taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt.
+    - Both, Usually taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Commonly taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Normally taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+    - Both, Customarily taunts, teasing and threats but once or twice they have push ed me on the playground and i got hurt. 
+        
+- intent: user_find_boys
+  examples: |
+    - But if the boys find out,I'll be in more trouble 
+    - but if the boys find out i will be in more trouble.
+    - But if the boys find out,I'll be in more difficulty
+    - But if the boys find out,I'll be in more issues
+    - But if the boys find out,I'll be in more inconvenience
+    - But if the boys find out,I'll be in more worry
+    - But if the boys find out,I'll be in more bothering
+    - But if the boys find out,I'll be in more anxiety
+    - But if the boys find out,I'll be in more disturbance
+    - But if the boys find out,I'll be in more disorder
+    - But if the boys find out,I'll be in more unrest
+    - But if the boys find out,I'll be in more conflict
+    - But if the boys find out,I'll be in more complicated situation
+    - But if the boys find out,I'll be in more scuffling
+    - But if the boys find out,I'll be in more tumult
+    - But if the boys find out,I'll be in more concern
+    - But if the boys find out,I'll be in more problems
+        
+- intent: user_tellteacher_parents
+  examples: |
+    - Ok , I'll tell my parents and my teacher. 
+    - okay i will tell my parents and my teacher.
+    - Right , I'll tell my parents and my teacher.
+    - True , I'll tell my parents and my teacher.
+    - exactly , I'll tell my parents and my teacher.
+    - correct , I'll tell my parents and my teacher.
+    - perfect , I'll tell my parents and my teacher.
+    - I guess so , I'll tell my parents and my teacher.
+    - I hope so , I'll tell my parents and my teacher.
+    - I believe so , I'll tell my parents and my teacher.
+    - I think so , I'll tell my parents and my teacher.
+    - yes , I'll tell my parents and my teacher.
+    - yup , I'll tell my parents and my teacher.
+    - that's correct , I'll tell my parents and my teacher.
+    - that's true , I'll tell my parents and my teacher.
+    - it's true , I'll tell my parents and my teacher.
+    - that's right , I'll tell my parents and my teacher.
+    
+- intent: user_outside_forparents
+  examples: |
+    - Yeah,coz most times they wait outside to catch us,if they see mom or Dad ,they won't do anything.
+    - Right ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - True ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - exactly ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - correct ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - perfect ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - I guess so ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - I hope so ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - I believe so ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - I think so ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - yes ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - yup ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - that's correct ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - that's true ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - it's true ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+    - that's right ,coz most times they wait  outside to catch us,if they see  mom or Dad ,they won't do  anything.
+
+- intent: user_howcome
+  examples: |
+    - How come? 
+    - in what way?
+    - by what method?
+    - by what means?
+    - in what manner?
+    - according to what specifications?
+    - Whence?
+    - from what source ? 
+    - how?
+    - whereby?
+    - to what degree?
+    - by whose help?
+    - after what precedent?
+    - by virtue of what?
+    - wherewith?
+    - show how?
+    
+- intent: user_kids_trouble
+  examples: |
+    - ok,so can I tell this to the other kids they trouble? 
+    - okay so can i tell this to the other kids they trouble
+    - Right ,so can I tell this to the other kids they trouble?
+    - True ,so can I tell this to the other kids they trouble?
+    - exactly ,so can I tell this to the other kids they trouble?
+    - correct ,so can I tell this to the other kids they trouble?
+    - perfect ,so can I tell this to the other kids they trouble?
+    - I guess so ,so can I tell this to the other kids they trouble?
+    - I hope so ,so can I tell this to the other kids they trouble?
+    - I believe so ,so can I tell this to the other kids they trouble?
+    - I think so ,so can I tell this to the other kids they trouble?
+    - yes ,so can I tell this to the other kids they trouble?
+    - yup ,so can I tell this to the other kids they trouble?
+    - that's correct ,so can I tell this to the other kids they trouble?
+    - that's true ,so can I tell this to the other kids they trouble?
+    - it's true ,so can I tell this to the other kids they trouble?
+    - that's right ,so can I tell this to the other kids they trouble?
+    
+- intent: user_good_appriciation
+  examples: |
+    - That would be really good.
+    - that would be really good
+    - that would be good 
+    - That would be really Great
+    - That would be really easing
+    - That would be really superb
+    - That would be really excellent
+    - That would be really brilliant
+    - That would be really extraordinary
+    - That would be really awesome
+    - That would be really okay
+    - That would be really cool
+    - That would be really helpful
+    - That would be really useful
+    - That would be really so kind of you
+    - That would be really so good of you
+    - That would be really so sweet of you
+    - That would be really so nice of you
+    
+- intent: user_group_5friends
+  examples: |
+    - Yes, we're a group of 5 freinds. 
+    - Right , we're a group of 5 freinds.
+    - True , we're a group of 5 freinds.
+    - exactly , we're a group of 5 freinds.
+    - correct , we're a group of 5 freinds.
+    - perfect , we're a group of 5 freinds.
+    - I guess so , we're a group of 5 freinds.
+    - I hope so , we're a group of 5 freinds.
+    - I believe so , we're a group of 5 freinds.
+    - I think so , we're a group of 5 freinds.
+    - Yeah , we're a group of 5 freinds.
+    - yup , we're a group of 5 freinds.
+    - that's correct , we're a group of 5 freinds.
+    - that's true , we're a group of 5 freinds.
+    - it's true , we're a group of 5 freinds.
+    - that's right , we're a group of 5 freinds.
+    - yes we are group of 5 friends
+    - yup we r group of 5 friends
+    - yeah we are group of 5 friends
+    
+- intent: user_scared
+  examples: |
+    - Yes, I can make sure I have some one with me,that way I won't be scared.
+    - yes i can make sure i have some one with me that way i won't be scared.
+    - Right , I can make sure I have some one with me,that way I won't be  scared.
+    - True , I can make sure I have some one with me,that way I won't be  scared.
+    - exactly , I can make sure I have some one with me,that way I won't be  scared.
+    - correct , I can make sure I have some one with me,that way I won't be  scared.
+    - perfect , I can make sure I have some one with me,that way I won't be  scared.
+    - I guess so , I can make sure I have some one with me,that way I won't be  scared.
+    - I hope so , I can make sure I have some one with me,that way I won't be  scared.
+    - I believe so , I can make sure I have some one with me,that way I won't be  scared.
+    - I think so , I can make sure I have some one with me,that way I won't be  scared.
+    - Yeah , I can make sure I have some one with me,that way I won't be  scared.
+    - yup , I can make sure I have some one with me,that way I won't be  scared.
+    - that's correct , I can make sure I have some one with me,that way I won't be  scared.
+    - that's true , I can make sure I have some one with me,that way I won't be  scared.
+    - It's true , I can make sure I have some one with me,that way I won't be  scared.
+    - That's right , I can make sure I have some one with me,that way I won't be  scared.
+        
+- intent: user_will_do
+  examples: |
+    - ok,I will do that.
+    - okay i will do that
+    - will do that
+    - Ok i will do that
+    - sure i will do that
+    - Right
+    - True
+    - exactly
+    - correct
+    - perfect
+    - I guess so
+    - I hope so
+    - I believe so
+    - I think so
+    - yes
+    - yup
+    - that's correct
+    - that's true
+    - it's true
+    - that's right
+    
+- intent: user_keepit
+  examples: |
+    - I will keep this in mind.
+    - i will keep this in mind
+    - I will remember this
+    - I will not forget this
+    - I will take care of it
+    - It will be my first priority
+    - I will absolutely keep this in mind
+    - Going to keep this in mind
+    - I will be careful about it
+    - I will definitely keep this in mind
+    - I will undoubtedly keep this in mind
+    - I will unquestionably keep this in mind
+    - I will unmistakably keep this in mind
+    - I am never going to forget it
+    - Don't worry I will keep this in mind
+    - No problem I will take care of that
+    - Okay I will keep this in mind
+    
+- intent: user_oh
+  examples: |
+    - oh! 
+    - oh! Right
+    - oh! True
+    - oh! exactly
+    - oh! correct
+    - oh! perfect
+    - oh! I guess so
+    - oh! I hope so
+    - oh! I believe so
+    - oh! I think so
+    - oh! yes
+    - oh! yup
+    - oh! that's correct
+    - oh! that's true
+    - oh! it's true
+    - oh! that's right
+    
+- intent: user_vehicle_bike
+  examples: |
+    - BIKE
+    - bike
+    - Bike
+    - A bike
+    - That BIKE
+    - This BIKE
+    - By BIKE
+    - Through a BIKE
+    - That one BIKE
+    - Which one BIKE?
+    - what BIKE?
+    - Which BIKE you are talking about?
+    - Which BIKE we are going to get?
+    - which one BIKE you are talking about?
+    - Which BIKE is available now?
+    - which BIKE will be available for this route?
+    - is there any BIKE available?
+    - is there a particular BIKE?
+        
+- intent: user_alone
+  examples: |
+    - Usually with friends but sometimes alone.
+    - usually with friends but sometimes alone.
+    - commonly with friends but sometimes alone.
+    - generally with friends but sometimes alone.
+    - typically with friends but sometimes alone.
+    - mostly with friends but sometimes alone.
+    - mainly with friends but sometimes alone.
+    - regularly with friends but sometimes alone.
+    - particularly with friends but sometimes alone.
+    - on a regular basis with friends but sometimes alone.
+    - basically with friends but sometimes alone.
+    - normally with friends but sometimes alone.
+    - customarily with friends but sometimes alone.
+    - routinely with friends but sometimes alone.
+    - standardly with friends but sometimes alone.
+    - habitually with friends but sometimes alone.
+    - traditionally with friends but sometimes alone.
+    
+- intent: user_gotit
+  examples: |
+    - Got it.
+    - got it 
+    - got it 
+    - Got it 
+    - Right
+    - True
+    - exactly
+    - correct
+    - perfect
+    - I guess so
+    - I hope so
+    - I believe so
+    - I think so
+    - yes
+    - yup
+    - that's correct
+    - that's true
+    - it's true
+    - that's right
+    
+- intent: user_help_friends
+  examples: |
+    - Angry and scared,but now I'm going to take my friends and try to help them.
+    - angry and scared but now i am going to take my friends and try to help them.
+    - Angry and frightened,but now I'm going to take my friends and try to help them.
+    - Angry and afraid,but now I'm going to take my friends and try to help them.
+    - Angry and fearful,but now I'm going to take my friends and try to help them.
+    - Angry and nervous,but now I'm going to take my friends and try to help them.
+    - Angry and panicky,but now I'm going to take my friends and try to help them.
+    - Angry and agitated,but now I'm going to take my friends and try to help them.
+    - Angry and alarmed,but now I'm going to take my friends and try to help them.
+    - Angry and worried ,but now I'm going to take my friends and try to help them.
+    - Angry and terrified,but now I'm going to take my friends and try to help them.
+    - Angry and horrified,but now I'm going to take my friends and try to help them.
+    - Angry and hysterical,but now I'm going to take my friends and try to help them.
+    - Angry and spooked ,but now I'm going to take my friends and try to help them.
+    - Angry and frantic,but now I'm going to take my friends and try to help them.
+    - Angry and jumpy ,but now I'm going to take my friends and try to help them.
+    - Angry and extremely scared,but now I'm going to take my friends and try to help them.
+    
+- intent: user_share_problem
+  examples: |
+    - I am feeling good that I could share my problem
+    - i am feeling good that i could share my problem
+    - I am feeling good that I could share my difficulty
+    - I am feeling good that I could share my issue
+    - I am feeling good that I could share my trouble
+    - I am feeling good that I could share my worry
+    - I am feeling good that I could share my complication
+    - I am feeling good that I could share my difficult situation
+    - I am feeling good that I could share my tough situation
+    - I am feeling good that I could share my mess
+    - I am feeling good that I could share my hurdle
+    - I am feeling good that I could share my quandary
+    - I am feeling good that I could share my conflict
+    - I am feeling good that I could share my mix up
+    - I am feeling good that I could share my hesitation
+    - I am feeling good that I could share my confusion
+    - I am feeling good that I could share my drawback
+        

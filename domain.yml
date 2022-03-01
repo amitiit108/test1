@@ -1,6 +1,60 @@
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- affirm
+- deny
+- mood_unhappy
+- bot_challenge
+- user_stupid
+- user_listening
+- user_parents
+- user_guess
+- user_sad_days
+- user_how
+- user_entertainment
+- user_lost_job
+- user_no_friend
+- user_find_friend
+- user_assumption
+- user_fun
+- user_appreciation
+- user_school_vehicle
+- user_friend
+- user_react
+- user_reaction_nexttime
+- user_hobby
+- user_coach_consultation
+- user_mood
+- user_hope
+- user_troubling_me
+- user_new_school
+- user_lunch_line
+- user_thanks
+- user_pushed_playground
+- user_kinda_follow
+- user_picks_kids
+- user_not_sure
+- user_bully_me
+- user_pushedme_playgroundhurt
+- user_find_boys
+- user_tellteacher_parents
+- user_outside_forparents
+- user_howcome
+- user_kids_trouble
+- user_good_appriciation
+- user_group_5friends
+- user_scared
+- user_will_do
+- user_keepit
+- user_oh
+- user_vehicle_bike
+- user_alone
+- user_gotit
+- user_help_friends
+- user_share_problem
+
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -9,41 +63,35 @@ responses:
   utter_mood_unhappy:
   - text: I'm sorry to hear that,do you want to talk about it?
   utter_stupid:
-  - text: Of course, Jimmy you can talk about anything that bothers you. Nothing that
-      bothers can be stupid ok?
+  - text: Of course, Jimmy you can talk about anything that bothers you. Nothing that bothers can be stupid ok?
   utter_listening:
   - text: It's just you and me Jimmy,so whatever you say, stays between us.
   utter_parents:
   - text: Unless you're in danger,I will not tell anybody ,Ok?
   utter_affirm:
-  - text: Jimmy, you know a lot of times we have a problem or we're in trouble and
-      we keep quiet ,but once we share what's bothering us,it sometimes seems less
-      difficult.
+  - text: Jimmy, you know a lot of times we have a problem or we're in trouble and we keep quiet ,but once we share what's bothering us,it sometimes seems less difficult.
   utter_guess:
   - text: Do you want to share what's bothering you, with me?
   utter_sad_days:
   - text: Oh,I'm sorry to hear that, and I want to help you feel better.
   utter_how:
-  - text: Well, first by just listening to you, tell me what makes you feel sad and
-      lonely.
+  - text: Well, first by just listening to you, tell me what makes you feel sad and lonely.
   utter_entertainment:
   - text: Absolutely,just get set,go!
   utter_lost_job:
   - text: That is hard..
   utter_no_friend:
-  - text: Yes,its tough to move away from friends and school and start again in a
-      new place.
+  - text: Yes,its tough to move away from friends and school and start again in a new place.
   utter_find_friend:
   - text: Jimmy, I think they're going through a difficult time too...
   utter_assumption:
-  - text: So, Jimmy ,how about you and I work together to help you get through this
-      ?
+  - text: So, Jimmy ,how about you and I work together to help you get through this ?
   utter_fun:
   - text: Great, first lets try to find some new friends,like a treasure hunt...
   utter_appreciation:
   - text: OK,first clue question,how do you go to school? <Bus> <Bike> Walking>
   utter_school_vehicle:
-  - text: Great,so let's start with a bus friend,ok?
+  - text: Great,so let's start with a bus friend,ok? 
   utter_friend:
   - text: So,have you said hi, or smiled at him?
   utter_react:
@@ -51,14 +99,94 @@ responses:
   utter_reaction_nexttime:
   - text: Thats the spirit ! Jimmy, what do you like to do, sports, music ?
   utter_hobby:
-  - text: Wonderful,how about you check with the coach in school if you can try out
-      for the team here too?
+  - text: Wonderful,how about you check with the coach in school if you can try out for the team here too?
   utter_coach_consultation:
   - text: Yes and you'd automatically be part of a group.
   utter_mood:
-  - text: See it's not as bad as you thought infact, once you start feeling happy
-      and get busy with friends and school, Mom and Dad will also feel better,things
-      will settle down like before.
+  - text: See it's not as bad as you thought infact, once you start feeling happy and get busy with friends and school, Mom and Dad will also feel better,things will settle down like before.
   utter_hope:
-  - text: Of course you can,Jimmy,I'm right here for you. We'll think of more ways
-      to make you feel better and you can tell me about your day.
+  - text: Of course you can,Jimmy,I'm right here for you. We'll think of more ways to make you feel better and you can tell me about your day.
+  utter_troubling_me:
+  - text: Ok, that's a tough situation,do you want to talk about this some more?
+  utter_assumptio:
+  - text: Of course, lets try and work together to help you. Is it ok if I ask you
+      for some more information?
+  utter_affirms:
+  - text: Dave, how long have they been bothering you?
+  utter_new_school:
+  - text: Can you remember ,how it started,maybe you got into a fight or something?
+  utter_lunch_line:
+  - text: Dave,let me say,Im proud of you for coming out and talking about this tough
+      situation.
+  utter_thanks:
+  - text: Can you tell how they trouble you <Verbal Taunts> <Physical harm> <Both>
+  utter_pushed_playground:
+  - text: Is it one boy or a group of them together?
+  utter_kinda_follow:
+  - text: Is this boy who starts it ,bigger, stronger and meaner?
+  utter_picks_kids:
+  - text: Do they usually do all this in recess and home time?
+  utter_affm:
+  - text: Also, are they more bold when they see you're alone?
+  utter_irm:
+  - text: Ok,so Dave ,you are dealing with something called Bullying
+  utter_not_sure:
+  - text: It is important that you understand that all this is not your fault.
+  utter_bully_me:
+  - text: Bullies don't always need a reason,they just feel very  smart and strong
+      by picking on others. How do they trouble you? <by saying mean things> <physical
+      hitting>
+  utter_pushedme_playgroundhurt:
+  - text: Dave, have you told your parents or your teacher about what you're going
+      through?
+  utter_deny:
+  - text: I know,it is scary but it's also important that they know what's happening
+  utter_find_boys:
+  - text: I understand your fear,so mention it to your teacher and she'll make sure
+      your name stays out of it, they're probably bullying other kids too.
+  utter_tellteacher_parents:
+  - text: Dave, you know maybe your mom or dad could drive you to school once or twice
+      a week, do you think that would help in anyway?
+  utter_outside_forparents:
+  - text: Right, they might even figure out that you've told your parents, that'll
+      scare them.
+  utter_howcome:
+  - text: Bullies are strong only untill they feel you're scared and will keep quiet
+      and not tell any body.
+  utter_kids_trouble:
+  - text: Sure,that's a great idea,maybe it'll help them too. Now ,let's work out
+      some simple steps to help you deal with this safely.
+  utter_good_appriciation:
+  - text: Dave, I'm sure you have a few friends in class?
+  utter_group_5friends:
+  - text: So ,is it possible to move around with your group or atleast keep one or
+      two of them with you in recess and hometime?
+  utter_scared:
+  - text: Another thing you can try is ,if they make fun of you or say something mean,just
+      look at them and walk away without any response---That often takes away their
+      fun.
+  utter_will_do:
+  - text: That's the spirit Dave ! Even once you talk to the teacher, they will not
+      stop immediately,that is why it is important that you stay in a group,not respond
+      or react to them. Your safety is most important.
+  utter_afis:
+  - text: Dave, always remember you have not done anything wrong, so stay confident
+      and positive about yourself.
+  utter_keepit:
+  - text: You know a lot of Bullies,are mean because they were bullied at some point.
+  utter_oh:
+  - text: Dave, tell me how do you go and come from school <BUS> <BIKE> <WALK>
+  utter_vehicle_bike:
+  - text: Ok,so you bike with your friends or alone?
+  utter_alone:
+  - text: Dave ,you must remember if you ever encounter your Bully when you are alone,
+      immediately run to a safe place ,where there are  people or shout for help,DO
+      NOT respond, react or challenge him.
+  utter_gotit:
+  - text: Dave,if you see someone else being bullied, how do you feel?
+  utter_help_friends:
+  - text: That is a positive thought,so stay safe and help others also. Let's work
+      on the things we've talked about today and I hope you're feeling a little calmer
+      ?
+  utter_share_problem:
+  - text: I am right here ,whenever you feel like talking again. Take and stay safe.

@@ -1,30 +1,126 @@
 version: "2.0"
+
 stories:
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-- story: sad path 1
+
+- story: First Engagement
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: mood_affirm
-  - action: utter_happy
-- story: sad path 2
+  - action: utter_mood_unhappy
+  - intent: user_stupid
+  - action: utter_stupid
+  - intent: user_listening
+  - action: utter_listening
+  - intent: user_parents
+  - action: utter_parents
+  - intent: affirm
+  - action: utter_affirm
+  - intent: user_guess
+  - action: utter_guess
+  - intent: user_sad_days
+  - action: utter_sad_days
+  - intent: user_how
+  - action: utter_how
+  - intent: user_entertainment
+  - action: utter_entertainment
+  - intent: user_lost_job
+  - action: utter_lost_job
+  - intent: user_no_friend
+  - action: utter_no_friend
+  - intent: user_find_friend
+  - action: utter_find_friend
+  - intent: user_assumption
+  - action: utter_assumption
+  - intent: user_fun
+  - action: utter_fun
+  - intent: user_appreciation
+  - action: utter_appreciation
+  - intent: user_school_vehicle
+  - action: utter_school_vehicle
+  - intent: user_friend
+  - action: utter_friend
+  - intent: user_react
+  - action: utter_react
+  - intent: user_reaction_nexttime
+  - action: utter_reaction_nexttime
+  - intent: user_hobby
+  - action: utter_hobby
+  - intent: user_coach_consultation
+  - action: utter_coach_consultation
+  - intent: user_mood
+  - action: utter_mood
+  - intent: user_hope
+  - action: utter_hope
+
+- story: Physical Bullying
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: mood_deny
-  - action: utter_goodbye
-- story: say goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - action: utter_mood_unhappy
+  - intent: user_troubling_me
+  - action: utter_troubling_me
+  - intent: user_assumption
+  - action: utter_assumptio
+  - intent: affirm
+  - action: utter_affirms
+  - intent: user_new_school
+  - action: utter_new_school
+  - intent: user_lunch_line
+  - action: utter_lunch_line
+  - intent: user_thanks
+  - action: utter_thanks
+  - intent: user_pushed_playground
+  - action: utter_pushed_playground
+  - intent: user_kinda_follow
+  - action: utter_kinda_follow
+  - intent: user_picks_kids
+  - action: utter_picks_kids
+  - intent: affirm
+  - action: utter_affm
+  - intent: affirm
+  - action: utter_irm
+  - intent: user_not_sure
+  - action: utter_not_sure
+  - intent: user_bully_me
+  - action: utter_bully_me
+  - intent: user_pushedme_playgroundhurt
+  - action: utter_pushedme_playgroundhurt
+  - intent: deny
+  - action: utter_deny
+  - intent: user_find_boys
+  - action: utter_find_boys
+  - intent: user_tellteacher_parents
+  - action: utter_tellteacher_parents
+  - intent: user_outside_forparents
+  - action: utter_outside_forparents
+  - intent: user_howcome
+  - action: utter_howcome
+  - intent: user_kids_trouble
+  - action: utter_kids_trouble
+  - intent: user_good_appriciation
+  - action: utter_good_appriciation
+  - intent: user_group_5friends
+  - action: utter_group_5friends
+  - intent: user_scared
+  - action: utter_scared
+  - intent: user_will_do
+  - action: utter_will_do
+  - intent: affirm
+  - action: utter_afis  
+  - intent: user_keepit
+  - action: utter_keepit
+  - intent: user_oh
+  - action: utter_oh
+  - intent: user_vehicle_bike
+  - action: utter_vehicle_bike
+  - intent: user_alone
+  - action: utter_alone
+  - intent: user_gotit
+  - action: utter_gotit
+  - intent: user_help_friends
+  - action: utter_help_friends
+  - intent: user_share_problem
+  - action: utter_share_problem
+
