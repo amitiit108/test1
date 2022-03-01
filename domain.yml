@@ -1,0 +1,64 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_bot_challenge:
+  - text: I am a bot, powered by Rasa.
+  utter_mood_unhappy:
+  - text: I'm sorry to hear that,do you want to talk about it?
+  utter_stupid:
+  - text: Of course, Jimmy you can talk about anything that bothers you. Nothing that
+      bothers can be stupid ok?
+  utter_listening:
+  - text: It's just you and me Jimmy,so whatever you say, stays between us.
+  utter_parents:
+  - text: Unless you're in danger,I will not tell anybody ,Ok?
+  utter_affirm:
+  - text: Jimmy, you know a lot of times we have a problem or we're in trouble and
+      we keep quiet ,but once we share what's bothering us,it sometimes seems less
+      difficult.
+  utter_guess:
+  - text: Do you want to share what's bothering you, with me?
+  utter_sad_days:
+  - text: Oh,I'm sorry to hear that, and I want to help you feel better.
+  utter_how:
+  - text: Well, first by just listening to you, tell me what makes you feel sad and
+      lonely.
+  utter_entertainment:
+  - text: Absolutely,just get set,go!
+  utter_lost_job:
+  - text: That is hard..
+  utter_no_friend:
+  - text: Yes,its tough to move away from friends and school and start again in a
+      new place.
+  utter_find_friend:
+  - text: Jimmy, I think they're going through a difficult time too...
+  utter_assumption:
+  - text: So, Jimmy ,how about you and I work together to help you get through this
+      ?
+  utter_fun:
+  - text: Great, first lets try to find some new friends,like a treasure hunt...
+  utter_appreciation:
+  - text: OK,first clue question,how do you go to school? <Bus> <Bike> Walking>
+  utter_school_vehicle:
+  - text: Great,so let's start with a bus friend,ok?
+  utter_friend:
+  - text: So,have you said hi, or smiled at him?
+  utter_react:
+  - text: There you have it,he's looking to make friends too.
+  utter_reaction_nexttime:
+  - text: Thats the spirit ! Jimmy, what do you like to do, sports, music ?
+  utter_hobby:
+  - text: Wonderful,how about you check with the coach in school if you can try out
+      for the team here too?
+  utter_coach_consultation:
+  - text: Yes and you'd automatically be part of a group.
+  utter_mood:
+  - text: See it's not as bad as you thought infact, once you start feeling happy
+      and get busy with friends and school, Mom and Dad will also feel better,things
+      will settle down like before.
+  utter_hope:
+  - text: Of course you can,Jimmy,I'm right here for you. We'll think of more ways
+      to make you feel better and you can tell me about your day.
